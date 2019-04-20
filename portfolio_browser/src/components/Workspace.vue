@@ -37,11 +37,11 @@
       <el-header style="text-align: right; font-size: 12px; font-weight: bold">
         <el-button id="run" type="text" icon="el-icon-caret-right" @click="train">模拟运行</el-button>
         <span>{{username}}</span>
-        <el-dropdown>
+        <el-dropdown @command="handleCommand">
           <i class="el-icon-setting" style="margin-left: 15px"></i>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item><i class="el-icon-refresh"></i>刷新数据</el-dropdown-item>
-            <el-dropdown-item><i class="el-icon-back"></i>退出登录</el-dropdown-item>
+            <el-dropdown-item command="refresh"><i class="el-icon-refresh"></i>刷新数据</el-dropdown-item>
+            <el-dropdown-item command="logout"><i class="el-icon-back"></i>退出登录</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
       </el-header>
@@ -106,11 +106,11 @@ import ElAside from "element-ui/packages/aside/src/main";
 
 export default {
   components: {ElAside},
-  name: 'HelloWorld',
+  name: 'Workspace',
   data () {
     return {
       username:"刘猫",
-      panel:'upload',
+      panel:'parameter',
       uploadFileUrl:"http://localhost:8082/data/uploadDataSet/",
       paras:{
         name:'',
@@ -122,7 +122,7 @@ export default {
     }
   },
   methods:{
-    //后台即使上传成功返回的也是404，所以文件状态改变的时候默认上传成功
+    //后台即使上传成功返回的也是404（这个bug似乎是element的），所以文件状态改变的时候默认上传成功
     onUploadChanged:function (file,fileList) {
       this.$notify({
         title: '上传成功',
@@ -179,6 +179,14 @@ export default {
     },
     clearParas:function () {
       this.paras = {};
+    },
+    handleCommand:function (command) {
+      if(command==='refresh'){}
+      if(command==='logout'){
+        localStorage.setItem('username',undefined);
+        var path = '/';
+        this.$router.push({path,path});
+      }
     }
 
   }
