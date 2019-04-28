@@ -2,29 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7354b0aa-79f4-4757-8ed0-a6500953af6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/controller/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/controller/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/service/ProcessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/controller/Chart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/dao/FileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/daoImpl/FileDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/service/ChartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/serviceImpl/ChartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/command.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_browser/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_browser/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_browser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_browser/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_browser/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_browser/src/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_browser/src/components/Workspace.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_browser/src/components/Workspace.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_browser/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_browser/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controller/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/daoImpl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/controller/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/controller/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/service/ProcessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/service/ProcessService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/serviceImpl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/serviceImpl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/user.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,22 +81,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/train_package/1/programlog">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-309">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="127">
+              <caret line="5030" column="21" lean-forward="true" selection-start-line="5030" selection-start-column="21" selection-end-line="5030" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/service/ProcessService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/Chart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="269">
+              <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,19 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://5748cd7d-9400-483e-b0d4-c7a61ef3f07b/schema/portfolio/table/process">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/service/FileService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/ChartServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="-357">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,13 +114,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/FileServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/service/ChartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/server/daoImpl/FileDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -143,8 +139,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -152,6 +148,16 @@
     <findStrings>
       <find>print</find>
       <find>Colo</find>
+      <find>total</find>
+      <find>avera</find>
+      <find>Total</find>
+      <find>BTC</find>
+      <find>total a</find>
+      <find>indexed by 32680</find>
+      <find>total assets</find>
+      <find>logging.</find>
+      <find>5.7579257-02</find>
+      <find>0.         0</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +168,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/SpringbootApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controller/Login.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/server/SpringbootApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/util/OptMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/daoImpl/UserDaoImpl.java" />
@@ -172,19 +177,31 @@
         <option value="$PROJECT_DIR$/src/main/java/server/controller/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controller/file.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controller/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/controller/Process.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/serviceImpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/controller/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/server/service/FileService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/service/ProcessService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/processes/70134682/train_package/1/net_config.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/processes/85499916/train_package/1/net_config.json" />
+        <option value="$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/processes/73316239/train_package/1/net_config.json" />
         <option value="$PROJECT_DIR$/src/main/java/server/serviceImpl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/processes/55603735/PGPortfolio-master/train_package/1/net_config.json" />
+        <option value="$PROJECT_DIR$/src/main/java/server/service/ProcessService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/controller/Process.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/command.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/train_package/train_summary.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/server/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/daoImpl/FileDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/service/ChartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/controller/Chart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/serviceImpl/ChartServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -202,11 +219,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,6 +280,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="daoImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,7 +340,70 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pgportfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pgportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="processes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="processes" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="processes" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pgportfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="processes" type="462c0819:PsiDirectoryNode" />
+              <item name="PGPortfolio-master" type="462c0819:PsiDirectoryNode" />
+              <item name="pgportfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,7 +423,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555823372224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556458058523" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -338,11 +435,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master" />
       <recent name="$PROJECT_DIR$/src/main/java/server/util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/train_package/1" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/train_package/1" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/database" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/processes/88240580/PGPortfolio-master/database" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/processes/73316239/database" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +485,11 @@
       <workItem from="1555219248562" duration="1420000" />
       <workItem from="1555604313333" duration="6894000" />
       <workItem from="1555680898070" duration="10805000" />
-      <workItem from="1555750837945" duration="13785000" />
+      <workItem from="1555750837945" duration="33952000" />
+      <workItem from="1556001114024" duration="9944000" />
+      <workItem from="1556362984967" duration="15473000" />
+      <workItem from="1556443461476" duration="9486000" />
+      <workItem from="1556458182511" duration="9579000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1555219287279</created>
@@ -400,39 +505,48 @@
       <option name="project" value="LOCAL" />
       <updated>1555739426708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add file operation">
+      <created>1555823436714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555823436718</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35565000" />
+    <option name="totallyTimeSpent" value="100214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="23" width="1280" height="737" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.28513733" />
+      <window_info id="Structure" order="1" sideWeight="0.5011547" side_tool="true" weight="0.27382874" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32868218" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32766616" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3271605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3271605" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32868218" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3271605" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32868218" />
+      <window_info anchor="bottom" id="EvoSuite" order="16" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,7 +555,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32956383" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
@@ -451,335 +565,278 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="add login and register" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login and register" />
+    <MESSAGE value="add file operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file operation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/autotrain/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tools/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/autotrain/training.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/autotrain/generate.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/learn/network.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/learn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/learn/nnagent.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/learn/rollingtrainer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/learn/tradertrainer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/coinlist.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/marketdata/coinlist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/datamatrices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/globaldatamatrix.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/marketdata/datamatrices.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/poloniex.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/marketdata/globaldatamatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/marketdata/replaybuffer.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/marketdata/poloniex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/resultprocess/table.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/marketdata/replaybuffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/resultprocess/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/resultprocess/plot.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/resultprocess/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/resultprocess/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/resultprocess/table.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/bk_deprecated.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/bk.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/best.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor_deprecated.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/bcrp.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/bcrp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor_deprecated.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/bk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor2.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/bk_deprecated.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/tdagent/algorithms/anticor1.py">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/bnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/corn_deprecated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/cornk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/cornu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/crp.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/user_guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="840">
-            <caret line="56" column="50" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/cwmr_std.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
+        <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/train_package/train_summary.csv">
-      <provider selected="true" editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-          <column index="3" width="100" />
-          <column index="4" width="100" />
-          <column index="5" width="100" />
-          <column index="6" width="100" />
-          <column index="7" width="100" />
-          <column index="8" width="100" />
-          <column index="9" width="100" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/cwmr_var.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
       </provider>
-      <provider editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5748cd7d-9400-483e-b0d4-c7a61ef3f07b/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/eg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/m0.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://5748cd7d-9400-483e-b0d4-c7a61ef3f07b/schema/portfolio/table/user/index/user_username_uindex">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/olmar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/daoImpl/UserRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/olmar2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-587">
-          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-28" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/dao/ProcessRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/Process.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/entity/ProcessEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5748cd7d-9400-483e-b0d4-c7a61ef3f07b/schema/portfolio/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/best.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/pamr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/rmr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/ubah.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/sp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/rmr_deprecated.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/algorithms/wmamr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/tdagent/tdagent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/trade/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/trade/backtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/service/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/ProcessServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/dao/FileDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/Process.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/PGPortfolio-master/pgportfolio/trade/trader.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-676">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/service/ProcessService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/pgportfolio/trade/trader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="-904">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/processes/02480620/PGPortfolio-master/train_package/1/programlog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="5030" column="21" lean-forward="true" selection-start-line="5030" selection-start-column="21" selection-end-line="5030" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/controller/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="37" column="85" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://5748cd7d-9400-483e-b0d4-c7a61ef3f07b/schema/portfolio/table/process">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/service/ChartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/daoImpl/FileDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/serviceImpl/ChartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

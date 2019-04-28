@@ -11,7 +11,7 @@
           <el-input v-model="user.password" type="password"></el-input>
         </el-form-item>
         <el-form-item>
-        <span style="font-size: 6px; ">*已注册请点击登录，注册将自动创建新账户</span>
+        <span style="font-size: 10px; ">*已注册请点击登录，注册将自动创建新账户</span>
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="login">登录</el-button>
@@ -43,6 +43,7 @@
           if(xmlhttp.readyState===4&&xmlhttp.status===200){
             if(JSON.parse(xmlhttp.responseText).result===true) {
               localStorage.setItem('username', username);
+              _this.usernameToId();
               var path = '/' + username + '/Workspace';
               _this.$router.push({path: path});
             }
@@ -89,6 +90,19 @@
         xmlhttp.setRequestHeader("Content-type", "application/json; charset=utf-8");
         xmlhttp.send();
       },
+      usernameToId:function () {
+        var xmlhttp = new XMLHttpRequest();
+        var _this = this;
+        var username = this.user.username;
+        xmlhttp.onreadystatechange = function () {
+          if(xmlhttp.readyState===4&&xmlhttp.status===200){
+            localStorage.setItem('userId',JSON.parse(xmlhttp.responseText).id);
+          }
+        }
+        xmlhttp.open('GET','http://localhost:8082/user/usernameToId?&username='+username,false);
+        xmlhttp.setRequestHeader("Content-type", "application/json; charset=utf-8");
+        xmlhttp.send();
+      }
 
     }
   }
