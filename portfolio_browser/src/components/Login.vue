@@ -46,6 +46,7 @@
               _this.usernameToId();
               var path = '/' + username + '/Workspace';
               _this.$router.push({path: path});
+              window.location.reload()
             }
             else{
               _this.$notify({
@@ -120,6 +121,9 @@
     margin-left: 33%;
     background-color: rgb(238, 241, 246);
     margin-top: 20px;
+  }
+  .el-main{
+    background-image: url("../assets/bg.png");
   }
 
 </style>

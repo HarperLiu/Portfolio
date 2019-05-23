@@ -2,10 +2,7 @@ package server.controller;
 
 import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import server.service.UserService;
 import server.util.OptMessage;
 import server.util.ResultMessage;
@@ -15,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 @Controller
 @RequestMapping(value = "user")
@@ -65,4 +63,16 @@ public class User {
             e.printStackTrace();
         }
     }
+
+    @RequestMapping(value = "/submitSheet",method = RequestMethod.POST)
+    public void submitSheet(@RequestBody List<JSONObject> sheet, HttpServletRequest request, HttpServletResponse response){
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("id",userService.getUserIdByUsername(username));
+        try (PrintWriter out = response.getWriter()){
+            out.println(jsonObject);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

@@ -21,7 +21,7 @@ public class ProcessServiceImpl implements ProcessService {
     private ProcessRepository processRepository;
 
     final String processDir = "/Users/apple/Desktop/Portfolio/portfolio_server/src/main/resources/static/processes/";
-    final String commandDir = "/Users/apple/Desktop/Portfolio/portfolio_server/src/main/resources/static/command.sh ";
+    final String commandDir = "/Users/apple/Desktop/Portfolio/portfolio_server/src/main/resources/static/instructions/command.sh ";
 
     @Resource(name = "fileService")
     private FileService fileService;

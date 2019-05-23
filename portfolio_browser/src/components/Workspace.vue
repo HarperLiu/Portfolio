@@ -26,9 +26,8 @@
         </el-submenu>
       </el-menu>
     </el-aside>
-
     <el-container>
-      <el-header style="text-align: right; font-size: 12px; font-weight: bold">
+      <el-header style="text-align: left;">
         <el-select id="processSelector" v-model="currentProcess" placeholder="选择任务id" size="mini">
           <el-option
             v-for="item in processes"
@@ -40,20 +39,16 @@
           </el-option>
         </el-select>
         <el-button id="run" type="text" icon="el-icon-caret-right" @click="train">模拟运行</el-button>
-        <span>{{username}}</span>
-        <el-dropdown @command="handleCommand">
-          <i class="el-icon-setting" style="margin-left: 15px"></i>
-          <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item command="refresh"><i class="el-icon-refresh"></i>刷新数据</el-dropdown-item>
-            <el-dropdown-item command="logout"><i class="el-icon-back"></i>退出登录</el-dropdown-item>
-          </el-dropdown-menu>
-        </el-dropdown>
       </el-header>
       <el-main v-show='panel==="rateChart"'>
-        <div id="rate" style="width: 900px; height: 480px"></div>
+        <div id="rate" style="width: 900px; height: 480px">
+          <el-button type="text" @click="drawRateChart">点击以刷新数据</el-button>
+        </div>
       </el-main>
       <el-main v-show='panel==="propertyChart"'>
-        <div id="property" style="width: 900px; height: 480px"></div>
+        <div id="property" style="width: 900px; height: 480px">
+          <el-button type="text" @click="drawPropertyChart">点击以刷新数据</el-button>
+        </div>
       </el-main>
       <el-main v-show='panel==="parameter"'>
         <el-row>
@@ -140,7 +135,7 @@ export default {
   },
   data () {
     return {
-      username: "刘猫",
+      username: localStorage.getItem('username'),
       panel: 'parameter',
       uploadFileUrl: "http://localhost:8082/file/uploadDataSet/",
       paras: {
@@ -216,18 +211,6 @@ export default {
           this.panel = 'propertyChart';
           break;
         }
-      }
-    },
-    handleCommand:function (command) {
-      if(command==='refresh'){
-        this.drawRateChart();
-        this.drawPropertyChart();
-      }
-      if(command==='logout'){
-        localStorage.setItem('username',undefined);
-        localStorage.setItem('userId',undefined);
-        var path = '/';
-        this.$router.push({path,path});
       }
     },
     createProcess:function () {
@@ -534,7 +517,7 @@ export default {
     color: #409EFF;
   }
   #processSelector{
-    padding-right: 100px;
+
   }
   #paras{
     width: 50%;
