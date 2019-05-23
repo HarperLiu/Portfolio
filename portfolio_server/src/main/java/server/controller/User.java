@@ -65,11 +65,10 @@ public class User {
     }
 
     @RequestMapping(value = "/submitSheet",method = RequestMethod.POST)
-    public void submitSheet(@RequestBody List<JSONObject> sheet, HttpServletRequest request, HttpServletResponse response){
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("id",userService.getUserIdByUsername(username));
+    public void submitSheet(@RequestBody List<Integer> sheet, @RequestParam int userId, HttpServletRequest request, HttpServletResponse response){
+        int res = userService.AssessUserRisk(sheet,userId);
         try (PrintWriter out = response.getWriter()){
-            out.println(jsonObject);
+            out.println(res);
         } catch (IOException e) {
             e.printStackTrace();
         }

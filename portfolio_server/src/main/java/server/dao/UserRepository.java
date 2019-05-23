@@ -13,4 +13,5 @@ import javax.persistence.Table;
 @Table(name = "user")
 public interface UserRepository extends JpaRepository<UserEntity,Integer> {
     UserEntity findByUsername(String username);
+    UserEntity findById(int id);
 }

@@ -9,7 +9,7 @@ public class UserEntity {
     private int id;
     private String username;
     private String password;
-
+    private Integer risk;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -42,6 +42,15 @@ public class UserEntity {
         this.password = password;
     }
 
+    @Basic
+    @Column(name = "risk")
+    public Integer getRisk() {
+        return risk;
+    }
+
+    public void setRisk(Integer risk) {
+        this.risk = risk;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -50,11 +59,12 @@ public class UserEntity {
         UserEntity that = (UserEntity) o;
         return id == that.id &&
                 Objects.equals(username, that.username) &&
-                Objects.equals(password, that.password);
+                Objects.equals(password, that.password) &&
+                Objects.equals(risk, that.risk);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, username, password);
+        return Objects.hash(id, username, password, risk);
     }
 }

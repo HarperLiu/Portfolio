@@ -27,7 +27,6 @@
             <el-dropdown @command="handleCommand">
               <i class="el-icon-setting"></i>
               <el-dropdown-menu slot="dropdown">
-                <el-dropdown-item command="refresh"><i class="el-icon-refresh"></i>刷新数据</el-dropdown-item>
                 <el-dropdown-item command="logout"><i class="el-icon-back"></i>退出登录</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
@@ -105,10 +104,6 @@ export default {
 
     },
     handleCommand:function (command) {
-      if(command==='refresh'){
-        this.drawRateChart();
-        this.drawPropertyChart();
-      }
       if(command==='logout'){
         localStorage.setItem('username',undefined);
         localStorage.setItem('userId',undefined);

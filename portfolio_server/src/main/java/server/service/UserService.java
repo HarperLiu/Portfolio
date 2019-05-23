@@ -1,6 +1,9 @@
 package server.service;
 
+import org.json.JSONObject;
 import server.util.ResultMessage;
+
+import java.util.List;
 
 public interface UserService {
     /**
@@ -25,4 +28,12 @@ public interface UserService {
      * @return
      */
     public int getUserIdByUsername(String username);
+
+    /**
+     * 判断用户投资偏好
+     * @param sheet
+     * @param userId
+     * @return
+     */
+    public int AssessUserRisk(List<Integer> sheet,int userId);
 }

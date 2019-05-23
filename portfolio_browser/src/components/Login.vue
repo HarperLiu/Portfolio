@@ -44,7 +44,7 @@
             if(JSON.parse(xmlhttp.responseText).result===true) {
               localStorage.setItem('username', username);
               _this.usernameToId();
-              var path = '/' + username + '/Workspace';
+              var path = '/Index';
               _this.$router.push({path: path});
               window.location.reload()
             }

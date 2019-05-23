@@ -117,6 +117,19 @@
       <el-main v-show='panel==="download"'>
         <el-row>
           <h3>下载训练结果</h3>
+          <el-row>
+            <el-col :span="8" v-for="process in processes" :key="process" :offset="index > 0 ? 2 : 0" style="padding: 10px">
+              <el-card :body-style="{ padding: '0px' }">
+                <img src="../assets/logo.png" class="image" style="width: 100px;height: 100px">
+                <div style="padding: 14px;">
+                  <span>{{'进程ID：'+process.id}}</span>
+                  <div class="bottom clearfix">
+                    <el-link type="primary" :href="setHref(process.id)" download="train_summary.csv">下载数据</el-link>
+                  </div>
+                </div>
+              </el-card>
+            </el-col>
+          </el-row>
         </el-row>
       </el-main>
     </el-container>
@@ -491,6 +504,9 @@ export default {
       xmlhttp.setRequestHeader("Content-type", "application/json; charset=utf-8");
       xmlhttp.send();
 
+    },
+    setHref:function (processId) {
+      return '/Users/apple/Desktop/Portfolio/portfolio_server/src/main/resources/static/processes/'+processId+'/PGPortfolio-master/train_package/train_summary.csv';
     }
 
   }
@@ -524,6 +540,7 @@ export default {
     text-align: left;
     margin-left: 25%;
   }
+
 
 
 </style>
